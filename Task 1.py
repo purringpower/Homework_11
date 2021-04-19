@@ -1,17 +1,18 @@
 students = {
     'Vasya': {
-        'Math': [4, 4, 4],
-        'Biology': [3, 5, 4],
-        'Music': [5, 5, 5]
+        'math': [4, 4, 4],
+        'biology': [3, 5, 4],
+        'music': [5, 5, 5]
     },
     'Masha': {
-        'Math': [3, 4, 4],
-        'Biology': [3, 5, 4],
-        'Music': [5, 3, 4]
+        'math': [3, 4, 4],
+        'biology': [3, 5, 4],
+        'music': [5, 3, 4]
     }
 }
 
 student_name, subject, mark = input("Enter student's name, subject and type of mark:").split(' ')
+subject = subject.lower()
 
 
 class NoSuchStudent(Exception):
