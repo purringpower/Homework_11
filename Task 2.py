@@ -1,4 +1,4 @@
-# now the code raises an error and stops working when usersinput is incorrect
+# now the code raises an error and stops working when users input is incorrect
 values_to_buy = {
     "USD": 27.9,
     "EUR": 33
